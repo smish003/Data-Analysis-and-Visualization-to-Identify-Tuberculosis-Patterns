@@ -1,0 +1,596 @@
+[
+  {
+    "op": "core/column-removal",
+    "columnName": "iso2",
+    "description": "Remove column iso2"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "iso3",
+    "description": "Remove column iso3"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "iso_numeric",
+    "description": "Remove column iso_numeric"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "exp_cpp_dstb",
+    "description": "Remove column exp_cpp_dstb"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "exp_fld",
+    "newColumnName": "Actual expenditure on drugs to treat drug-susceptible TB (US Dollars)",
+    "description": "Rename column exp_fld to Actual expenditure on drugs to treat drug-susceptible TB (US Dollars)"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "rcvd_fld",
+    "newColumnName": "Funding received for drugs to treat drug-susceptible TB (US Dollars)",
+    "description": "Rename column rcvd_fld to Funding received for drugs to treat drug-susceptible TB (US Dollars)"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "exp_tpt",
+    "newColumnName": "Actual expenditure on drugs for TB preventive treatment (US Dollars)",
+    "description": "Rename column exp_tpt to Actual expenditure on drugs for TB preventive treatment (US Dollars)"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "rcvd_tpt",
+    "newColumnName": "Funding received for drugs for TB preventive treatment (US Dollars)",
+    "description": "Rename column rcvd_tpt to Funding received for drugs for TB preventive treatment (US Dollars)"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "exp_lab",
+    "newColumnName": "Actual expenditure on laboratory infrastructure, equipment and supplies (US Dollars)",
+    "description": "Rename column exp_lab to Actual expenditure on laboratory infrastructure, equipment and supplies (US Dollars)"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "rcvd_lab",
+    "newColumnName": "Funding received for laboratory infrastructure, equipment and supplies (US Dollars)",
+    "description": "Rename column rcvd_lab to Funding received for laboratory infrastructure, equipment and supplies (US Dollars)"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "exp_staff",
+    "newColumnName": "Actual expenditure on National TB Programme staff (central unit staff and subnational TB staff)",
+    "description": "Rename column exp_staff to Actual expenditure on National TB Programme staff (central unit staff and subnational TB staff)"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "rcvd_staff",
+    "newColumnName": "Funding received for National TB Programme staff (central unit staff and subnational TB staff)",
+    "description": "Rename column rcvd_staff to Funding received for National TB Programme staff (central unit staff and subnational TB staff)"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "exp_prog",
+    "newColumnName": "Actual expenditure on programme costs to treat drug-susceptible TB",
+    "description": "Rename column exp_prog to Actual expenditure on programme costs to treat drug-susceptible TB"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "rcvd_prog",
+    "newColumnName": "Funding received for programme costs to treat drug-susceptible TB",
+    "description": "Rename column rcvd_prog to Funding received for programme costs to treat drug-susceptible TB"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "exp_patsup",
+    "newColumnName": "Actual expenditure on patient support",
+    "description": "Rename column exp_patsup to Actual expenditure on patient support"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "rcvd_patsup",
+    "newColumnName": "Funding received for patient support",
+    "description": "Rename column rcvd_patsup to Funding received for patient support"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "exp_orsrvy",
+    "newColumnName": "Actual expenditure on operational research and surveys",
+    "description": "Rename column exp_orsrvy to Actual expenditure on operational research and surveys"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "rcvd_orsrvy",
+    "newColumnName": "Funding received for operational research and surveys",
+    "description": "Rename column rcvd_orsrvy to Funding received for operational research and surveys"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "exp_oth",
+    "newColumnName": "Actual expenditure on all other budget line items",
+    "description": "Rename column exp_oth to Actual expenditure on all other budget line items"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "rcvd_oth",
+    "newColumnName": "Funding received for all other budget line items",
+    "description": "Rename column rcvd_oth to Funding received for all other budget line items"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "exp_tot",
+    "newColumnName": "Total actual expenditure",
+    "description": "Rename column exp_tot to Total actual expenditure"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "rcvd_tot",
+    "newColumnName": "Total funding received for all budget line items",
+    "description": "Rename column rcvd_tot to Total funding received for all budget line items"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "hcfvisit_dstb",
+    "newColumnName": "Typical number of visits to a health facility after diagnosis for patients starting first-line TB treatment",
+    "description": "Rename column hcfvisit_dstb to Typical number of visits to a health facility after diagnosis for patients starting first-line TB treatment"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "hcfvisit_mdr",
+    "newColumnName": "Typical number of visits to a health facility after diagnosis for patients starting MDR-TB/XDR-TB treatment",
+    "description": "Rename column hcfvisit_mdr to Typical number of visits to a health facility after diagnosis for patients starting MDR-TB/XDR-TB treatment"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "hosp_type_mdr",
+    "newColumnName": "Type of facility most often used if MDR-TB patients are hospitalized",
+    "description": "Rename column hosp_type_mdr to Type of facility most often used if MDR-TB patients are hospitalized"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "hospd_dstb_dur",
+    "newColumnName": "Estimated average duration of stay if patients starting first-line TB treatment are hospitalized (days)",
+    "description": "Rename column hospd_dstb_dur to Estimated average duration of stay if patients starting first-line TB treatment are hospitalized (days)"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "hospd_dstb_prct",
+    "newColumnName": "Estimated percentage of patients starting first-line TB treatment that are hospitalized (%)",
+    "description": "Rename column hospd_dstb_prct to Estimated percentage of patients starting first-line TB treatment that are hospitalized (%)"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "hospd_mdr_dur",
+    "newColumnName": "Estimated average duration of stay if patients starting MDR-TB/XDR-TB treatment are hospitalized (days)",
+    "description": "Rename column hospd_mdr_dur to Estimated average duration of stay if patients starting MDR-TB/XDR-TB treatment are hospitalized (days)"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "hospd_mdr_prct",
+    "newColumnName": "Estimated percentage of patients starting MDR-TB/XDR-TB treatment that are hospitalized (%)",
+    "description": "Rename column hospd_mdr_prct to Estimated percentage of patients starting MDR-TB/XDR-TB treatment that are hospitalized (%)"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "exp_cpp_mdr",
+    "description": "Remove column exp_cpp_mdr"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "exp_cpp_xdr",
+    "description": "Remove column exp_cpp_xdr"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "exp_cpp_tpt",
+    "description": "Remove column exp_cpp_tpt"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "exp_sld",
+    "description": "Remove column exp_sld"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "rcvd_sld",
+    "description": "Remove column rcvd_sld"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "exp_mdrmgt",
+    "description": "Remove column exp_mdrmgt"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "rcvd_mdrmgt",
+    "description": "Remove column rcvd_mdrmgt"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "exp_tbhiv",
+    "description": "Remove column exp_tbhiv"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "rcvd_tbhiv",
+    "description": "Remove column rcvd_tbhiv"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "rcvd_tot_domestic",
+    "description": "Remove column rcvd_tot_domestic"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "rcvd_tot_gf",
+    "description": "Remove column rcvd_tot_gf"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "rcvd_tot_usaid",
+    "description": "Remove column rcvd_tot_usaid"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "rcvd_tot_grnt",
+    "description": "Remove column rcvd_tot_grnt"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "rcvd_tot_sources",
+    "description": "Remove column rcvd_tot_sources"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "country",
+    "newColumnName": "Country",
+    "description": "Rename column country to Country"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "g_whoregion",
+    "newColumnName": "Region",
+    "description": "Rename column g_whoregion to Region"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "year",
+    "newColumnName": "Year",
+    "description": "Rename column year to Year"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Year",
+          "columnName": "Year",
+          "query": "2021",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Region",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "AFR"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Africa"
+      }
+    ],
+    "description": "Mass edit cells in column Region"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Year",
+          "columnName": "Year",
+          "query": "2021",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Region",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "AMR"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Americas"
+      }
+    ],
+    "description": "Mass edit cells in column Region"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Year",
+          "columnName": "Year",
+          "query": "2021",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Region",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "EMR"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Eastern Mediterranian"
+      }
+    ],
+    "description": "Mass edit cells in column Region"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Year",
+          "columnName": "Year",
+          "query": "2021",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Region",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "EUR"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      }
+    ],
+    "description": "Mass edit cells in column Region"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Year",
+          "columnName": "Year",
+          "query": "2021",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Region",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "SEA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "South-East Asia"
+      }
+    ],
+    "description": "Mass edit cells in column Region"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Year",
+          "columnName": "Year",
+          "query": "2021",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Region",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "WPR"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Western Pacific"
+      }
+    ],
+    "description": "Mass edit cells in column Region"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Year",
+          "columnName": "Year",
+          "query": "2021",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Type of facility most often used if MDR-TB patients are hospitalized",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "2"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Not Applicable"
+      }
+    ],
+    "description": "Mass edit cells in column Type of facility most often used if MDR-TB patients are hospitalized"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Year",
+          "columnName": "Year",
+          "query": "2021",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Type of facility most often used if MDR-TB patients are hospitalized",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "140"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Primary-Level"
+      }
+    ],
+    "description": "Mass edit cells in column Type of facility most often used if MDR-TB patients are hospitalized"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Year",
+          "columnName": "Year",
+          "query": "2021",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Type of facility most often used if MDR-TB patients are hospitalized",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "141"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Secondary-Level"
+      }
+    ],
+    "description": "Mass edit cells in column Type of facility most often used if MDR-TB patients are hospitalized"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Year",
+          "columnName": "Year",
+          "query": "2021",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Type of facility most often used if MDR-TB patients are hospitalized",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "142"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Tertiary-Level-Hospital"
+      }
+    ],
+    "description": "Mass edit cells in column Type of facility most often used if MDR-TB patients are hospitalized"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Actual expenditure on laboratory infrastructure, equipment and supplies (US Dollars)",
+    "newColumnName": "Actual expenditure on laboratory infrastructure, equipment and supplies",
+    "description": "Rename column Actual expenditure on laboratory infrastructure, equipment and supplies (US Dollars) to Actual expenditure on laboratory infrastructure, equipment and supplies"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Funding received for laboratory infrastructure, equipment and supplies (US Dollars)",
+    "newColumnName": "Funding received for laboratory infrastructure, equipment and supplies",
+    "description": "Rename column Funding received for laboratory infrastructure, equipment and supplies (US Dollars) to Funding received for laboratory infrastructure, equipment and supplies"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Actual expenditure on drugs to treat drug-susceptible TB (US Dollars)",
+    "newColumnName": "Actual expenditure on drugs to treat drug-susceptible TB",
+    "description": "Rename column Actual expenditure on drugs to treat drug-susceptible TB (US Dollars) to Actual expenditure on drugs to treat drug-susceptible TB"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Funding received for drugs to treat drug-susceptible TB (US Dollars)",
+    "newColumnName": "Funding received for drugs to treat drug-susceptible TB",
+    "description": "Rename column Funding received for drugs to treat drug-susceptible TB (US Dollars) to Funding received for drugs to treat drug-susceptible TB"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Funding received for drugs for TB preventive treatment (US Dollars)",
+    "newColumnName": "Funding received for drugs for TB preventive treatment",
+    "description": "Rename column Funding received for drugs for TB preventive treatment (US Dollars) to Funding received for drugs for TB preventive treatment"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Actual expenditure on drugs for TB preventive treatment (US Dollars)",
+    "newColumnName": "Actual expenditure on drugs for TB preventive treatment",
+    "description": "Rename column Actual expenditure on drugs for TB preventive treatment (US Dollars) to Actual expenditure on drugs for TB preventive treatment"
+  }
+]

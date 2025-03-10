@@ -1,0 +1,321 @@
+[
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "g_whoregion",
+    "newColumnName": "Region",
+    "description": "Rename column g_whoregion to Region"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "e_pop_num",
+    "newColumnName": "Total Population",
+    "description": "Rename column e_pop_num to Total Population"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "e_inc_tbhiv_num",
+    "newColumnName": "TB cases with HIV-positive",
+    "description": "Rename column e_inc_tbhiv_num to TB cases with HIV-positive"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "TB cases with HIV-positive",
+    "newColumnName": "Incidence of TB cases with HIV-positive",
+    "description": "Rename column TB cases with HIV-positive to Incidence of TB cases with HIV-positive"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "e_mort_tbhiv_num",
+    "newColumnName": "Number of TB deaths who are HIV-positive",
+    "description": "Rename column e_mort_tbhiv_num to Number of TB deaths who are HIV-positive"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Incidence of TB cases with HIV-positive",
+    "newColumnName": "Number of Incidence of TB cases with HIV-positive",
+    "description": "Rename column Incidence of TB cases with HIV-positive to Number of Incidence of TB cases with HIV-positive"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "e_inc_100k",
+    "description": "Remove column e_inc_100k"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "e_tbhiv_prct",
+    "description": "Remove column e_tbhiv_prct"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "e_inc_tbhiv_100k",
+    "description": "Remove column e_inc_tbhiv_100k"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "e_mort_exc_tbhiv_100k",
+    "description": "Remove column e_mort_exc_tbhiv_100k"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "e_mort_exc_tbhiv_num",
+    "description": "Remove column e_mort_exc_tbhiv_num"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "e_mort_tbhiv_100k",
+    "description": "Remove column e_mort_tbhiv_100k"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "e_mort_100k",
+    "description": "Remove column e_mort_100k"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "e_mort_num",
+    "description": "Remove column e_mort_num"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "cfr",
+    "newColumnName": "TB case fatality ratio",
+    "description": "Rename column cfr to TB case fatality ratio"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "cfr_pct",
+    "description": "Remove column cfr_pct"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "c_newinc_100k",
+    "description": "Remove column c_newinc_100k"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "c_cdr",
+    "newColumnName": "Case Detection Rate",
+    "description": "Rename column c_cdr to Case Detection Rate"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Number of Incidence of TB cases with HIV-positive",
+    "description": "Fill down cells in column Number of Incidence of TB cases with HIV-positive"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Number of TB deaths who are HIV-positive",
+    "description": "Fill down cells in column Number of TB deaths who are HIV-positive"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "TB case fatality ratio",
+    "description": "Fill down cells in column TB case fatality ratio"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Case Detection Rate",
+    "description": "Fill down cells in column Case Detection Rate"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "CÃ´te d'Ivoire"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Côte d'Ivoire"
+      }
+    ],
+    "description": "Mass edit cells in column country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "CuraÃ§ao"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Curaçao"
+      }
+    ],
+    "description": "Mass edit cells in column country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "TÃ¼rkiye"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Turkey"
+      }
+    ],
+    "description": "Mass edit cells in column country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Region",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "AFR"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Africa"
+      }
+    ],
+    "description": "Mass edit cells in column Region"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Region",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "AMR"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "America"
+      }
+    ],
+    "description": "Mass edit cells in column Region"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Region",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "EMR"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Eastern Mediterranian"
+      }
+    ],
+    "description": "Mass edit cells in column Region"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Region",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "EUR"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      }
+    ],
+    "description": "Mass edit cells in column Region"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Region",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "SEA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "South-East Asia"
+      }
+    ],
+    "description": "Mass edit cells in column Region"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Region",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "WPR"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Western Pacific"
+      }
+    ],
+    "description": "Mass edit cells in column Region"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "year",
+    "description": "Remove column year"
+  }
+]

@@ -1,0 +1,444 @@
+[
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "g_whoregion",
+    "newColumnName": "Region",
+    "description": "Rename column g_whoregion to Region"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "year",
+    "description": "Remove column year"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "tx_dstb",
+    "newColumnName": "Number of patients expected to start drug-susceptible TB treatment",
+    "description": "Rename column tx_dstb to Number of patients expected to start drug-susceptible TB treatment"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "budget_cpp_dstb",
+    "newColumnName": "Average cost of drugs budgeted per patient for drug-susceptible TB treatment(US Dollars)",
+    "description": "Rename column budget_cpp_dstb to Average cost of drugs budgeted per patient for drug-susceptible TB treatment(US Dollars)"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "tx_mdr",
+    "newColumnName": "Number of patients expected to start MDR-TB treatment",
+    "description": "Rename column tx_mdr to Number of patients expected to start MDR-TB treatment"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "budget_cpp_mdr",
+    "newColumnName": "Average cost of drugs budgeted per patient for MDR-TB treatment(US Dollar)",
+    "description": "Rename column budget_cpp_mdr to Average cost of drugs budgeted per patient for MDR-TB treatment(US Dollar)"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "tx_xdr",
+    "newColumnName": "Number of patients expected to start pre-XDR/XDR-TB treatment",
+    "description": "Rename column tx_xdr to Number of patients expected to start pre-XDR/XDR-TB treatment"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "budget_cpp_xdr",
+    "newColumnName": "Average cost of drugs budgeted per patient for pre-XDR/XDR-TB treatment",
+    "description": "Rename column budget_cpp_xdr to Average cost of drugs budgeted per patient for pre-XDR/XDR-TB treatment"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "tx_tpt",
+    "newColumnName": "Number of patients expected to start TB preventive treatment",
+    "description": "Rename column tx_tpt to Number of patients expected to start TB preventive treatment"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "budget_cpp_tpt",
+    "newColumnName": "Average cost of drugs budgeted per patient for  TB preventive treatment(Us Dollar)",
+    "description": "Rename column budget_cpp_tpt to Average cost of drugs budgeted per patient for  TB preventive treatment(Us Dollar)"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Average cost of drugs budgeted per patient for pre-XDR/XDR-TB treatment",
+    "newColumnName": "Average cost of drugs budgeted per patient for pre-XDR/XDR-TB treatment(US Dollar)",
+    "description": "Rename column Average cost of drugs budgeted per patient for pre-XDR/XDR-TB treatment to Average cost of drugs budgeted per patient for pre-XDR/XDR-TB treatment(US Dollar)"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "budget_lab",
+    "newColumnName": "Lab Budget",
+    "description": "Rename column budget_lab to Lab Budget"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "cf_lab",
+    "newColumnName": "Expected funding for Lab",
+    "description": "Rename column cf_lab to Expected funding for Lab"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "budget_staff",
+    "newColumnName": "Budget for National TB Programme staff",
+    "description": "Rename column budget_staff to Budget for National TB Programme staff"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "cf_staff",
+    "newColumnName": "Expected funding for National TB Programme staff",
+    "description": "Rename column cf_staff to Expected funding for National TB Programme staff"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "budget_fld",
+    "newColumnName": "Budget for Drug",
+    "description": "Rename column budget_fld to Budget for Drug"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "cf_fld",
+    "newColumnName": "Expected funding for Drug",
+    "description": "Rename column cf_fld to Expected funding for Drug"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "budget_prog",
+    "newColumnName": "Programme costs to treat drug-susceptible",
+    "description": "Rename column budget_prog to Programme costs to treat drug-susceptible"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "cf_prog",
+    "newColumnName": "Expected funding for programme costs to treat drug-susceptible",
+    "description": "Rename column cf_prog to Expected funding for programme costs to treat drug-susceptible"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "budget_sld",
+    "description": "Remove column budget_sld"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "cf_sld",
+    "description": "Remove column cf_sld"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "budget_mdrmgt",
+    "description": "Remove column budget_mdrmgt"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "cf_mdrmgt",
+    "description": "Remove column cf_mdrmgt"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "budget_tpt",
+    "newColumnName": "Budget required for TB preventive treatment: drugs",
+    "description": "Rename column budget_tpt to Budget required for TB preventive treatment: drugs"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "cf_tpt",
+    "newColumnName": "Expected funding for TB preventive treatment drugs",
+    "description": "Rename column cf_tpt to Expected funding for TB preventive treatment drugs"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "budget_tbhiv",
+    "description": "Remove column budget_tbhiv"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "cf_tbhiv",
+    "description": "Remove column cf_tbhiv"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "budget_patsup",
+    "newColumnName": "Budget required for patient support",
+    "description": "Rename column budget_patsup to Budget required for patient support"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "cf_patsup",
+    "newColumnName": "Expected funding for patient support",
+    "description": "Rename column cf_patsup to Expected funding for patient support"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "budget_orsrvy",
+    "newColumnName": "Budget required for operational research and surveys",
+    "description": "Rename column budget_orsrvy to Budget required for operational research and surveys"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "cf_orsrvy",
+    "newColumnName": "Expected funding for operational research and surveys",
+    "description": "Rename column cf_orsrvy to Expected funding for operational research and surveys"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "budget_oth",
+    "newColumnName": "Other Budget",
+    "description": "Rename column budget_oth to Other Budget"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "cf_oth",
+    "newColumnName": "Other Budget Expect Funding",
+    "description": "Rename column cf_oth to Other Budget Expect Funding"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "budget_tot",
+    "newColumnName": "Total budget required",
+    "description": "Rename column budget_tot to Total budget required"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "cf_tot",
+    "description": "Remove column cf_tot"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "cf_tot_domestic",
+    "newColumnName": "Expected funding from domestic sources, including loans",
+    "description": "Rename column cf_tot_domestic to Expected funding from domestic sources, including loans"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "cf_tot_gf",
+    "newColumnName": "Expected funding from the Global Fund to Fight AIDS, Tuberculosis and Malaria",
+    "description": "Rename column cf_tot_gf to Expected funding from the Global Fund to Fight AIDS, Tuberculosis and Malaria"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "cf_tot_usaid",
+    "newColumnName": "Expected funding from USAID",
+    "description": "Rename column cf_tot_usaid to Expected funding from USAID"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "cf_tot_grnt",
+    "newColumnName": "Expected funding from other sources",
+    "description": "Rename column cf_tot_grnt to Expected funding from other sources"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "cf_tot_sources",
+    "newColumnName": "Total expected funding from all sources",
+    "description": "Rename column cf_tot_sources to Total expected funding from all sources"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Average cost of drugs budgeted per patient for drug-susceptible TB treatment(US Dollars)",
+    "newColumnName": "Average cost of drugs budgeted per patient for drug-susceptible TB treatment",
+    "description": "Rename column Average cost of drugs budgeted per patient for drug-susceptible TB treatment(US Dollars) to Average cost of drugs budgeted per patient for drug-susceptible TB treatment"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Average cost of drugs budgeted per patient for MDR-TB treatment(US Dollar)",
+    "newColumnName": "Average cost of drugs budgeted per patient for MDR-TB treatment",
+    "description": "Rename column Average cost of drugs budgeted per patient for MDR-TB treatment(US Dollar) to Average cost of drugs budgeted per patient for MDR-TB treatment"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Average cost of drugs budgeted per patient for pre-XDR/XDR-TB treatment(US Dollar)",
+    "newColumnName": "Average cost of drugs budgeted per patient for pre-XDR/XDR-TB treatment",
+    "description": "Rename column Average cost of drugs budgeted per patient for pre-XDR/XDR-TB treatment(US Dollar) to Average cost of drugs budgeted per patient for pre-XDR/XDR-TB treatment"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "Average cost of drugs budgeted per patient for  TB preventive treatment(Us Dollar)",
+    "newColumnName": "Average cost of drugs budgeted per patient for  TB preventive treatment)",
+    "description": "Rename column Average cost of drugs budgeted per patient for  TB preventive treatment(Us Dollar) to Average cost of drugs budgeted per patient for  TB preventive treatment)"
+  },
+  {
+    "op": "core/column-rename",
+    "oldColumnName": "country",
+    "newColumnName": "Country",
+    "description": "Rename column country to Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "CÃ´te d'Ivoire"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Côte d'Ivoire"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "CuraÃ§ao"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Curaçao"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Country",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "TÃ¼rkiye"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Turkey"
+      }
+    ],
+    "description": "Mass edit cells in column Country"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Region",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "AFR"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Africa"
+      }
+    ],
+    "description": "Mass edit cells in column Region"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Region",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "AMR"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Americas"
+      }
+    ],
+    "description": "Mass edit cells in column Region"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Region",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "EMR"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Eastern Mediterranian"
+      }
+    ],
+    "description": "Mass edit cells in column Region"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Region",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "EUR"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      }
+    ],
+    "description": "Mass edit cells in column Region"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Region",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "SEA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "South-East Asia"
+      }
+    ],
+    "description": "Mass edit cells in column Region"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Region",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "WPR"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Western Pacific"
+      }
+    ],
+    "description": "Mass edit cells in column Region"
+  }
+]
