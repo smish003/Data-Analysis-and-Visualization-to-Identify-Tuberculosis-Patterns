@@ -283,9 +283,8 @@ In my opinion, dividing the project into three smaller assignments rather than o
 
 Below is the tableau dashbaord links for reference:
 
-https://prod-useast-a.online.tableau.com/#/site/smish003/workbooks/784022?:origin=card_share_link
-
-https://prod-useast-a.online.tableau.com/#/site/smish003/workbooks/784148?:origin=card_share_link
+https://public.tableau.com/views/GlobalTuberculosisAnalysis/GlobalTuberculosisAnalysisbasedondifferentRegions?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+https://public.tableau.com/views/GlobalTuberculosisBudgetDataAnalysis-PartII/BudgetUtilization?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 Below is the presentation link for the reference:
 
